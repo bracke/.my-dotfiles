@@ -1,0 +1,21 @@
+set quiet
+set autoindent
+set constantshow
+set positionlog
+set tabsize 4
+set tabstospaces
+set nowrap
+set suspend
+set titlecolor brightyellow,blue
+set statuscolor brightyellow,blue
+set backupdir $HOME/nano-backups
+set numbercolor cyan,black
+set linenumbers
+set keycolor cyan,black
+set functioncolor blue,black
+
+# Save automatically on exit, don't prompt 
+set tempfile
+
+# Enable ~/.nano_history for saving and reading search/replace strings. 
+set historylog
