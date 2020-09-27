@@ -6,6 +6,14 @@ git init --bare $HOME/.my-dotfiles
 alias config='git --git-dir=$HOME/.my-dotfiles/ --work-tree=$HOME'
 config remote add origin git@github.com:bracke/.my-dotfiles.git
 ```
+## Installation of prerequisites
+```sh
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install get figlet curl micro fortune-mod tldr fortunes-de silversearcher-ag fonts-powerline net-tools xclip
+micro -plugin install filemanager
+micro -plugin install snippets
+```
 
 ## Replication
 ```sh
@@ -18,15 +26,6 @@ rm --recursive my-dotfiles-tmp
 ```sh
 config config status.showUntrackedFiles no
 config remote set-url origin https://github.com/bracke/.my-dotfiles.git
-```
-
-## Installation
-```sh
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install figlet curl micro fortune-mod tldr fortunes-de silversearcher-ag fonts-powerline net-tools xclip
-micro -plugin install filemanager
-micro -plugin install snippets
 ```
 
 ## Usage
