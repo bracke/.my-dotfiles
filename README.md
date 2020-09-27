@@ -26,7 +26,6 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install figlet curl micro fortune-mod tldr fortunes-de silversearcher-ag fonts-powerline net-tools xclip
 micro -plugin install filemanager
-micro -plugin install scratch
 micro -plugin install snippets
 ```
 
