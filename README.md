@@ -20,6 +20,16 @@ config config status.showUntrackedFiles no
 config remote set-url origin https://github.com/bracke/.my-dotfiles.git
 ```
 
+## Installation
+```sh
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install figlet curl micro fortune-mod tldr fortunes-de silversearcher-ag fonts-powerline net-tools 
+micro -plugin install filemanager
+micro -plugin install scratch
+micro -plugin install snippets
+``
+
 ## Usage
 ```sh
 config status
