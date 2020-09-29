@@ -129,6 +129,8 @@ alias gittoday='git log --pretty=oneline --abbrev-commit --since=midnight'
 alias gitm='git commit -m '
 alias gitchange='git commit --amend'
 
+alias ed='micro'
+
 alias start_dfr='cd ~/Projekter/fremmødesystem14 && ember s -p 7045'
 alias cd_dfr='cd ~/Projekter/fremmødesystem14'
 
