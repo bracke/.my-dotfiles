@@ -10,7 +10,7 @@ config remote add origin git@github.com:bracke/.my-dotfiles.git
 ```sh
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install git figlet curl micro fortune-mod tldr fortunes-de silversearcher-ag fonts-powerline net-tools bc xclip
+sudo apt-get install git figlet curl micro fortune-mod tldr fortunes-de silversearcher-ag fonts-powerline net-tools bc xclip tmux
 micro -plugin install filemanager
 micro -plugin install snippets
 ```
